@@ -1,0 +1,57 @@
+body { background-image: url('ground.avif'); 
+       background-size: cover; }
+table { border: 2px solid black;
+        text-align: center; 
+        vertical-align: center;
+        table-layout: fixed;
+        margin: auto; 
+        margin-top: 50px; 
+        margin-bottom: 50px; 
+        box-shadow: 20px 20px 5px gray; 
+        font-family: Arial, sans-serif; 
+        background: white;}
+th { background: gray; 
+     color: hsla(65,10%,80%,0.8); }
+td { font-style: italic; }
+tr:nth-of-type(odd) { background: rgb(180,180,180); }
+tr:nth-of-type(even) { background: rgb(240,240,240); }
+th,td { border: 1px dotted #a52a2a; 
+        padding: 10px; }
+h1 { text-align: center;
+     margin-top: 50px; 
+     margin-bottom: 50px;
+     color: red; }
+h3 { text-align: center;
+     margin-bottom: 40px;
+     text-decoration: underline;
+     text-decoration-color: brown;
+     color: #64130B; }
+p { color: red; }
+hr { margin-bottom: 50px; }
+div { text-align: center; 
+      display: block; }
+[type="button"] { border-radius: 50px; 
+                  background: hsl(240,15%,35%);
+                  color: white; 
+                  cursor: pointer; }
+[type="button"]:hover { background: white;
+                        color: hsl(240,15%,35%) }
+[type="text"] { border-color: #5C1709; }
+[type="submit"] { width: 80px; 
+                  border-style: none;
+                  padding: 5px 3px;
+                  border-radius: 20px;
+                  background: linear-gradient(to right, #E7CFC4, #92411B);
+                  color: #324C57;
+                  font-weight: bold;
+                  transition: width 2s; }
+[type="submit"]:hover { width: 150px; }
+label { font-family: "Courier New", fantasy;
+        font-weight: bold; 
+        font-size: 1.1em; } 
+img { width: 10px;
+      height: 25px; }
+.right { position: relative;
+         left: 20px; }
+.left { position: relative;
+        right: 20px; }                   
